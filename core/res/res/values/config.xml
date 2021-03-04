@@ -252,6 +252,13 @@
          toward power states (eg. tv/soundbar). -->
     <bool name="config_autoPowerModeUseMotionSensor">true</bool>
 
+    <!-- Disable wifi debugging-->
+    <bool translatable="false"
+    name="config_wifi_enable_wifi_firmware_debugging">false</bool>
+    <integer translatable="false"
+    name="config_wifi_logger_ring_buffer_verbose_size_limit_kb">64</integer>
+
+
     <!-- The threshold angle for any motion detection in auto-power save modes.
          In hundreths of a degree. -->
     <integer name="config_autoPowerModeThresholdAngle">200</integer>
